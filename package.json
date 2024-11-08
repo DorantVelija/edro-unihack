@@ -1,0 +1,39 @@
+{
+  "name": "edro_frontend",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "@react-native-community/datetimepicker": "^8.2.0",
+    "dotenv": "^16.4.5",
+    "expo": "~51.0.28",
+    "expo-constants": "~16.0.2",
+    "expo-font": "~12.0.10",
+    "expo-linking": "~6.3.1",
+    "expo-router": "~3.5.23",
+    "expo-status-bar": "~1.12.1",
+    "firebase": "^10.13.2",
+    "nativewind": "^4.1.10",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-dropdown-picker": "^5.4.6",
+    "react-native-image-picker": "^7.1.2",
+    "react-native-reanimated": "^3.15.2",
+    "react-native-safe-area-context": "4.10.5",
+    "react-native-screens": "3.31.1",
+    "tailwindcss": "^3.4.12",
+    "expo-image-picker": "~15.0.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "babel-preset-expo": "^11.0.14"
+  },
+  "private": true
+}
